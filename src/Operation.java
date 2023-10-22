@@ -1,11 +1,11 @@
-
 public class Operation {
-    
-    
+    //declare the variable in private to access inside the class
     private static final int ADD=1;
     private static final int SUB=2;
     private static final int MUL=3;
     private static final int DIV=4;
+
+    //according to the choice the operation are performanced
     
     public int Operation(int choice,int a,int b)
     {
@@ -36,21 +36,18 @@ public class Operation {
     {
         return a+b;
     }
-    
-    
+
     public int sub(int a,int b)
     {
         return a-b;
     }
     
-    
-    public int mul(int a,int b)
+   public int mul(int a,int b)
     {
         return a*b;
     }
     
-    
-       public int div(int a,int b)
+    public int div(int a,int b)
     {
         return a/b;
     }
