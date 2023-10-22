@@ -1,16 +1,11 @@
-
 import java.util.Scanner;
-
-
 public class Main {
     public static void main(String[] args)
     {
-    
-     Scanner sc=new Scanner(System.in);
-     
+    Scanner sc=new Scanner(System.in);
+     // for iteration we will use the do-while loop
      do
-         
-     {
+    {
         System.out.println("Enter your choice : ");
         System.out.println("1-Addition");
         System.out.println("2-Subtraction");
